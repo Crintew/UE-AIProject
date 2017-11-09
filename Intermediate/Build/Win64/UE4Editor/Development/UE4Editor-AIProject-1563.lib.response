@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AIProject-1563.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Engine\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\AIProject.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\AIProjectGameModeBase.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\PickupDummy.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\PlayerCharacter.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\AIProject.init.gen.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\AIProjectGameModeBase.gen.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\PickupDummy.gen.cpp.obj"
+"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\AIProject\PlayerCharacter.gen.cpp.obj"
+"D:\Unreal Engine\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIProject\PCLaunch.rc.res"
+"D:\Unreal Engine\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIProject-1563.lib"

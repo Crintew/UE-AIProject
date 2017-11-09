@@ -1,0 +1,16 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for AIProjectEditor
+    Running UnrealHeaderTool "D:\Unreal Engine\Projects\AIProject\AIProject.uproject" "D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\AIProjectEditor\Development\AIProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for AIProjectEditor in 11,355578 seconds
+  Performing 7 actions (4 in parallel)
+  AIProject.init.gen.cpp
+  PlayerCharacter.cpp
+  PickupDummy.gen.cpp
+  PickupDummy.cpp
+  PlayerCharacter.gen.cpp
+  [6/7] Link UE4Editor-AIProject-6557.dll
+  [7/7] Link UE4Editor-AIProject-6557.lib
+     Creating library D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIProject-6557.lib and object D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIProject-6557.exp
+     Creating library D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIProject-6557.suppressed.lib and object D:\Unreal Engine\Projects\AIProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIProject-6557.suppressed.exp
+  Deploying AIProjectEditor Win64 Development...
+  Total build time: 58,09 seconds (Local executor: 40,22 seconds)
