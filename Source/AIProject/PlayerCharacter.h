@@ -28,18 +28,21 @@ public:
 	bool bIsCrouching = false;
 	bool bIsRunning = false;
 
-	/*
-	bool bIsPhysicsHandleActive = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bIsPhysicsHandleActive;
+
 	float PhysicsHandleDistance;
 	float PhysicsTakeDistance;
 	FVector PhysicsHandleLocation;
 
-	UPROPERTY(EditAnywhere)
-	UPhysicsHandleComponent *PlayerPhysicsHandle;
+	FCollisionQueryParams _TraceQueryParams;
 
-	UPROPERTY(EditAnywhere)
-	UPrimitiveComponent *PlayerObjectHandle;
-	*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerPhysicsHandleCategory)
+	class UPhysicsHandleComponent *m_PlayerPhysicsHandle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	class UPrimitiveComponent *PlayerObjectHandle;
+
 	float MovementSpeedRate;
 
 	// Called every frame
@@ -73,7 +76,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SetCanMove(bool Value);
-	/*
+	
+	UFUNCTION(BlueprintCallable)
+	AActor *CheckGrabTrace(FVector &location, bool &pickup);
+
 	UFUNCTION(BlueprintCallable)
 	void GrabObject();
 
@@ -82,5 +88,4 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void UpdatePhysicsHandle();
-	*/
 };
